@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  font-size: large;
+}
+body{
+  background-color: grey;
+}
+
+form {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.note--box{
+  filter: drop-shadow(-5px 10px 4px rgb(56, 56, 56));
+
+
+}
+
+.note{
+  font-family: 'Radio Canada', sans-serif;
+  height: 300px;
+  width: 400px;
+  user-select: none;
+
+  background-color: rgb(247, 232, 120);
+  overflow: hidden;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+
+
+}
+
+.note--edit{
+  font-family: 'Radio Canada', sans-serif;
+  height: 300px;
+  width: 400px;
+
+  background-color: rgb(247, 192, 192);
+  overflow: hidden;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+
+}
+
+.note p{
+  padding: 10px;
+  text-align: center;
+
+}
+
+.action{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 10px;
+  background-color: rgba(226, 202, 154, 0.904);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+
+}
+
+button{
+  opacity: 0.3;
+  margin-right: 5px;
+
+}
+
+button:hover{
+  opacity: 0.6;
+
+}
+
+textarea{
+  padding-top: 30px;
+  width: 300px;
+  resize: none;
+  text-align: center;
+
+
+
+}
+
